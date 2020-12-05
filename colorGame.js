@@ -6,6 +6,8 @@ let allbuttons = document.querySelector('.buttons');
 let newColors = document.querySelector('.newColors');
 let easyGame = document.querySelector('.easyGame');
 let hardGame = document.querySelector('.hardGame');
+let gameLevelButtons = document.querySelector('.levelButtons');
+
 
 let mainColorOptionsContainer = document.querySelector('.colorBoxes');
 // container for containing guessing color options
@@ -86,6 +88,7 @@ colorOptionsContainer.addEventListener('click', (e) => {
 
         })
         mainColorOptionsContainer.classList.add('pointerBlock');
+        gameLevelButtons.classList.add('pointerBlock');
     }
 })
 
