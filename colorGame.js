@@ -55,6 +55,7 @@ colorCodeGenerator();
 newColors.addEventListener('click', () => {
     winnerOrLooserText.textContent = '';
     mainColorOptionsContainer.classList.remove('pointerBlock');
+    gameLevelButtons.classList.remove('pointerBlock');
     colorTextHeader.style.backgroundColor = 'rgb(155, 114, 114)';
     allbuttons.style.backgroundColor = 'black';
     colorOptionsContainer.innerHTML = '';
