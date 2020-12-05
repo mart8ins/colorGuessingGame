@@ -1,0 +1,82 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.pointerBlock {
+    pointer-events: none;
+}
+
+.colorText {
+    background-color: rgb(155, 114, 114);
+    color: white;
+    text-align: center;
+}
+
+.colorText h1 {
+    padding: 20px;
+}
+
+.colorText .guessingColor {
+    background-color: rgb(78, 115, 184);
+    font-size: 42px;
+    letter-spacing: 4px;
+    padding: 10px;
+    font-weight: bold;
+}
+
+.buttons {
+    display: flex;
+    justify-content: space-around;
+    background-color: black;
+}
+.buttons button {
+    color: white;
+    border: none;
+    background-color: rgb(77, 77, 207);
+    padding: 10px;
+    margin: 10px;
+    font-weight: bold;
+    font-size: 22px;
+    border-radius: 10px;
+    outline: none;
+}
+.buttons button:hover {
+    cursor: pointer;
+    background-color: rgb(130, 130, 204);
+}
+
+.buttons .winnerOrLooser {
+    display: flex;
+    align-items: center;
+    color: white;
+    font-size: 22px;
+}
+
+
+
+.colorBoxes {
+    background-color: rgba(0, 0, 0, 0.445);
+    color: white;
+    height: 70vh;
+}
+
+.colorBoxes .boxes {
+    width: 80%;
+    margin: 0 auto;
+    padding-top: 100px;
+    display: flex;
+    justify-content: space-evenly;
+}
+.colorBoxes .boxes div {
+    width: 200px;
+    height: 200px;
+    background-color: white;
+    border-radius: 20px;
+}
+
+.colorBoxes .boxes div:hover {
+    cursor: pointer;
+    transform: scale(1.02);
+}
